@@ -4,7 +4,8 @@ CG-transformation
 Adding the transformation process to rasterizer 
 
 ------------------------------------------------------------------------------------
-Files Reference
+
+File Reference
 
 Gz.h : Graphics library header
 
@@ -21,6 +22,7 @@ pot4.asc : The Utah teapot triangle data file
 pot4.ppm : The result with default camera 
 
 pot4.cam.ppm : The result of with app1 camera 
+
 ------------------------------------------------------------------------------------
 
 * The result images are created in a 256x256 window
@@ -36,9 +38,13 @@ User interface
 * Choose “Scale Object”, scale dialog pops up and you can type the value
 
 ------------------------------------------------------------------------------------
-/* Camera defaults */ 
-#define	DEFAULT_FOV		35.0 
-#define	DEFAULT_IM_Z	(-10.0)  /* world coords for image plane origin */ 
-#define	DEFAULT_IM_Y	(5.0)    /* default look-at point = 0,0,0 */ 
+Camera defaults
+
+#define	DEFAULT_FOV		35.0
+
+#define	DEFAULT_IM_Z	(-10.0)  // world coords for image plane origin
+
+#define	DEFAULT_IM_Y	(5.0)    // default look-at point = 0,0,0
+
 #define	DEFAULT_IM_X	(-10.0) 
 ------------------------------------------------------------------------------------
